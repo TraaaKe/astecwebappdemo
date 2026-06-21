@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function AdminPage(){return <main className="container"><div className="topbar"><h1>Back-office démo</h1><Link className="button secondary" href="/">Voir le site</Link></div><section className="panel"><h2>Commandes à livrer</h2><div className="admin-list"><div className="row"><span>Air France AF1234 — client@demo.fr</span><strong>En attente</strong></div><div className="row"><span>Emirates EK72 — pilote@demo.fr</span><strong>Livré</strong></div></div></section></main>}
